@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  /* max-width: 1320px; */
+  padding: 20px;
+}
+.grid-main-container {
+  padding: 10px;
+  max-width: 470px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: red;
+}
+.display-section {
+  background-color: green;
+  padding: 20px;
+}
+.display-section #enteredtext {
+  font-size: 60px;
+  color: black;
+  text-align: end;
+  width: 100%;
+}
+.display-section #clear {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 40px;
+  cursor: pointer;
+}
+.key-section {
+  padding: 15px 20px;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px 10px;
+}
+.key {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+  color: grey;
+  border: none;
+  outline: 2px solid black;
+  font-size: 35px;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+  color: black;
+}
